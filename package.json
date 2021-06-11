@@ -1,0 +1,13 @@
+{
+  "name": "BugTracker",
+  "version": "1.0.0",
+  "description": "Track Software Bugs",
+  "main": "index.js",
+  "author": "Malcolm Machesky",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {}
+}
