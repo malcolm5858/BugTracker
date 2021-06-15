@@ -12,7 +12,7 @@ import { Bug } from "./Bug";
 @Entity()
 export class Project extends BaseEntity {
   @Field(() => ID)
-  @PrimaryGeneratedColumn("uuid")
+  @PrimaryGeneratedColumn()
   id: string;
 
   @Field()
